@@ -28,7 +28,9 @@ export interface Typegen0 {
     cleanContext: "CANCEL" | "xstate.after(5000)#buy plane tickets.tickets";
   };
   eventsCausingServices: {};
-  eventsCausingGuards: {};
+  eventsCausingGuards: {
+    moreThanOnePassenger: "DONE";
+  };
   eventsCausingDelays: {};
   matchesStates:
     | "initial"
